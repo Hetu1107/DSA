@@ -11,5 +11,5 @@ void towerHanoi(int n,char src,char dest,char help){
 }
 int main(){
     int n;
-    towerHanoi(1,'A','C','B');
+    towerHanoi(2,'A','C','B');
 }
