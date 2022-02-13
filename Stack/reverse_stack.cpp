@@ -21,6 +21,7 @@ void reverse(stack<int>&st){
     int top = st.top();
     st.pop();
     reverse(st);
+    insertAtBottom(st,top);
 }
 
 int main(){
