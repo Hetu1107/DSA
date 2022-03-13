@@ -41,7 +41,7 @@ void solve(){
         }
     }
     cout<<"\n";
-    primeFactor(n);
+    // primeFactor(n);
 }
 
 
